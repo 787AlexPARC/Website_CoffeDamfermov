@@ -1069,15 +1069,117 @@
         };
 
         // Calendario de promociones
-        const promotions = [
-            { date: '2025-11-01', title: 'Lunes de Café', description: '2x1 en todos los cafés especiales' },
-            { date: '2025-11-05', title: 'Jueves de Postres', description: '20% de descuento en postres caseros' },
-            { date: '2025-11-10', title: 'Martes de Té', description: 'Té gratis con cualquier compra superior a S/ 30' },
-            { date: '2025-11-15', title: 'Día del Barista', description: 'Degustación gratuita de nuestros nuevos blends' },
-            { date: '2025-11-20', title: 'Viernes Social', description: '15% de descuento para grupos de 4 o más personas' },
-            { date: '2025-11-25', title: 'Día del Cliente', description: 'Regalo sorpresa con cada compra' },
-            { date: '2025-11-30', title: 'Fin de Mes', description: 'Café + postre a precio especial' }
-        ];
+        
+const promotions = [
+    // ENERO
+    { date: '2026-01-01', title: '🎉 ¡Aterriza Suave el Año Nuevo!', description: 'Combo Desayuno Recuperador (café + sándwich + jugo de naranja) con 15% de descuento. Perfecto para empezar el año con energía.' },
+    { date: '2026-01-02', title: '🎉 ¡Aterriza Suave el Año Nuevo!', description: 'Combo Desayuno Recuperador (café + sándwich + jugo de naranja) con 15% de descuento. Perfecto para empezar el año con energía.' },
+    { date: '2026-01-03', title: '🎉 ¡Aterriza Suave el Año Nuevo!', description: 'Combo Desayuno Recuperador (café + sándwich + jugo de naranja) con 15% de descuento. Perfecto para empezar el año con energía.' },
+    { date: '2026-01-06', title: '👑 Reyes Magos - "Reyna por un Día"', description: 'Al comprar cualquier torta entera, llévate un postre individual GRATIS. Ideal para seguir celebrando con lo dulce.' },
+    { date: '2026-01-15', title: '☕ Día Internacional del Café', description: 'Degustación gratuita de nuestro café de especialidad preparado en métodos Chemex o AeroPress. Descubre nuevos sabores con nosotros.' },
+    { date: '2026-01-26', title: '🌍 Día de la Educación Ambiental', description: '10% de descuento en tu bebida al traer tu propio termo o taza reutilizable. Juntos cuidamos el planeta.' },
+    { date: '2026-01-27', title: '🍋 Fin de Semana de Verano', description: 'Prueba nuestro nuevo lemonade o iced tea especial + queque de frutos rojos. Combo bebida fría + postre de verano a precio especial.' },
+    { date: '2026-01-28', title: '🍋 Fin de Semana de Verano', description: 'Prueba nuestro nuevo lemonade o iced tea especial + queque de frutos rojos. Combo bebida fría + postre de verano a precio especial.' },
+
+    // FEBRERO
+    { date: '2026-02-01', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-02', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-03', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-04', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-05', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-06', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-07', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-08', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-09', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-10', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-11', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-12', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-13', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-14', title: '💝 San Valentín - "Tándem Perfecto"', description: 'Realiza compras mayores a 20 soles y llévate DOS PORCIONES DE PASTEL GRATIS. Comparte el amor y lo dulce.' },
+    { date: '2026-02-12', title: '🎭 Carnavales - Jueves de Compadres', description: 'Hombres reciben cupcake GRATIS con la compra de su café.' },
+    { date: '2026-02-13', title: '🎭 Carnavales - Viernes de Comadres', description: 'Mujeres reciben cupcake GRATIS con la compra de su café.' },
+    { date: '2026-02-20', title: '🐱 Día del Gato', description: 'Muestra una foto de tu felino en tu celular y obtén 10% de descuento en tu pedido total. ¡Los amantes de los gatos merecen mimitos!' },
+    { date: '2026-02-25', title: '👥 Domingo de la Amistad', description: 'Ven con 2 amigos o más y todos reciben 15% de descuento en sus pedidos. La amistad sabe mejor con café.' },
+
+    // MARZO
+    { date: '2026-03-08', title: '🌸 Día Internacional de la Mujer', description: 'Todas nuestras clientas reciben un chocolate caliente GRATIS con cualquier compra superior a S/ 15. ¡Celebramos a las mujeres que nos inspiran!' },
+    { date: '2026-03-14', title: '🥧 Día de Pi (3.14)', description: 'Porción de Pie de Manzana o Limón a solo S/ 3.14. ¡Una oferta que no se repite en el año!' },
+    { date: '2026-03-16', title: '👨‍👧 Día del Padre', description: 'Papá paga solo S/ 1.00 por su café cuando su hijo/a pague un desayuno completo. El mejor homenaje para el rey de la casa.' },
+    { date: '2026-03-30', title: '🍂 Fin de Semana de Otoño', description: 'Café + Galleta casera a precio de combo especial. Perfecto para disfrutar las tardes frescas.' },
+    { date: '2026-03-31', title: '🍂 Fin de Semana de Otoño', description: 'Café + Galleta casera a precio de combo especial. Perfecto para disfrutar las tardes frescas.' },
+
+    // ABRIL
+    { date: '2026-04-01', title: '🎭 Día de los Inocentes', description: '"Café Sorpresa" - El barista elige tu bebida (siempre será de mayor valor) por solo S/ 5.00. ¡Atrévete a sorprenderte!' },
+    { date: '2026-04-23', title: '📚 Día del Libro', description: '15% de descuento en tu pedido al contarnos cuál es tu libro favorito. Buenas historias y buen café, la combinación perfecta.' },
+    { date: '2026-04-27', title: '🎂 Fin de Semana Dulce', description: '10% de descuento en todas nuestras tortas enteras. Perfecto para reuniones familiares o antojos especiales.' },
+    { date: '2026-04-28', title: '🎂 Fin de Semana Dulce', description: '10% de descuento en todas nuestras tortas enteras. Perfecto para reuniones familiares o antojos especiales.' },
+
+    // MAYO
+    { date: '2026-05-01', title: '💼 Día del Trabajo', description: '2x1 en todos los cafés para quienes muestren su tarjeta de trabajo. ¡Celebramos a quienes construyen el país!' },
+    { date: '2026-05-12', title: '👩 Día de la Madre', description: 'Mamá recibe un espresso GRATIS con la compra de cualquier torta entera. Porque ella siempre da más.' },
+    { date: '2026-05-18', title: '👨‍👩‍👧‍👦 Fin de Semana Familiar', description: 'Combo Familiar (2 cafés + 2 jugos + 4 porciones de queque) a precio especial. Disfruten en familia.' },
+    { date: '2026-05-19', title: '👨‍👩‍👧‍👦 Fin de Semana Familiar', description: 'Combo Familiar (2 cafés + 2 jugos + 4 porciones de queque) a precio especial. Disfruten en familia.' },
+    { date: '2026-05-31', title: '🧁 Día del Macarrón', description: 'Un macarrón GRATIS con la compra de cualquier pastel. ¡Dulces colores para tu día!' },
+
+    // JUNIO
+    { date: '2026-06-15', title: '👨‍👧 Día del Padre - Segunda Oportunidad', description: 'Papá paga solo S/ 1.00 por su café (válido todo el día). ¡Por si te lo perdiste en marzo!' },
+    { date: '2026-06-24', title: '☀️ Inti Raymi - Combo Energético', description: 'Café + Sándwich de Chicharrón con 15% de descuento. Recarga energías como el sol incaico.' },
+    { date: '2026-06-28', title: '🇵🇪 Fiestas Patrias - ¡Viva el Perú!', description: '20% de descuento en tu pedido total al vestir una prenda roja y blanca. ¡Celebremos juntos!' },
+    { date: '2026-06-29', title: '🇵🇪 Fiestas Patrias - ¡Viva el Perú!', description: '20% de descuento en tu pedido total al vestir una prenda roja y blanca. ¡Celebremos juntos!' },
+
+    // JULIO
+    { date: '2026-07-06', title: '🍎 Día del Maestro', description: 'Café GRATIS para todos los profesores que muestren su carnet. ¡Agradecemos su labor educativa!' },
+    { date: '2026-07-20', title: '👥 Día del Amigo', description: 'Ven en grupo de 3 o más personas y todos obtienen 20% de descuento. ¡Entre más amigos, más ahorro!' },
+    { date: '2026-07-27', title: '☕ Fin de Semana de Invierno', description: 'Bebidas calientes grandes al precio de tamaño mediano. Perfecto para abrigarse del frío.' },
+    { date: '2026-07-28', title: '☕ Fin de Semana de Invierno', description: 'Bebidas calientes grandes al precio de tamaño mediano. Perfecto para abrigarse del frío.' },
+
+    // AGOSTO
+    { date: '2026-08-17', title: '🧒 Día del Niño', description: 'Galleta decorada GRATIS para cada niño que nos visite. ¡Los consentidos de la casa!' },
+    { date: '2026-08-26', title: '🐶 Día del Perro', description: 'Muestra una foto de tu can y obtén 10% de descuento en tu pedido. ¡Los amantes de los perros también tienen su día!' },
+    { date: '2026-08-31', title: '💝 Fin de Solidaridad', description: 'S/ 1.00 de tu compra será donado a una causa local benéfica. ¡Juntos hacemos la diferencia!' },
+
+    // SEPTIEMBRE
+    { date: '2026-09-21', title: '🌸 ¡Llegó la Primavera!', description: 'Cafés y capuchinos con arte floral en la espuma sin costo adicional. La belleza de las flores en tu taza.' },
+    { date: '2026-09-27', title: '🧳 Día del Turismo', description: '15% de descuento para clientes extranjeros que muestren su pasaporte. ¡Bienvenidos a Perú!' },
+    { date: '2026-09-28', title: '🎓 Fin de Semana del Estudiante', description: '15% de descuento al mostrar carnet universitario o escolar. ¡Tu esfuerzo merece un dulce descanso!' },
+    { date: '2026-09-29', title: '🎓 Fin de Semana del Estudiante', description: '15% de descuento al mostrar carnet universitario o escolar. ¡Tu esfuerzo merece un dulce descanso!' },
+
+    // OCTUBRE
+    { date: '2026-10-26', title: '🧙 Pre-Halloween', description: 'Cóctel de la Bruja (bebida especial de temporada) a precio promocional. ¡Empieza la celebración!' },
+    { date: '2026-10-27', title: '🧙 Pre-Halloween', description: 'Cóctel de la Bruja (bebida especial de temporada) a precio promocional. ¡Empieza la celebración!' },
+    { date: '2026-10-31', title: '🎃 Halloween - Noche de Dulces y Sustos', description: 'Niños disfrazados reciben cupcake de Halloween GRATIS. ¡Truco o trato!' },
+
+    // NOVIEMBRE
+    { date: '2025-11-01', title: '🟣 Día de Todos los Santos', description: 'Mazamorra Morada GRATIS con cualquier café de la tarde (de 3:00 p.m. a 6:00 p.m.). Mantenemos viva la tradición dulce.' },
+    { date: '2025-11-29', title: '🛍️ Black Friday', description: '30% de descuento en todos los pasteles para llevar. ¡Prepárate para las fiestas!' },
+
+    // DICIEMBRE
+    { date: '2025-12-01', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-02', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-03', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-04', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-05', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-06', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-07', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-08', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-09', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-10', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-11', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-12', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-13', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-14', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-15', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-16', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-17', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-18', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-19', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-20', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-21', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-22', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-23', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-24', title: '🗓️ Calendario de Adviento', description: '24 cafés pequeños por S/ 50.00. El regalo perfecto para empezar cada día con energía navideña.' },
+    { date: '2025-12-31', title: '🥂 Noche de Fin de Año', description: 'Box Brindis (mini botella de espumante + 2 porciones de torta seleccionada) a precio especial. ¡Celebra con dulzura!' }
+];
 
         // Inicializar el mapa con la ubicación real de Coffee DAMFER
         var map = L.map('map').setView([-12.0552357, -75.2036369], 16);
